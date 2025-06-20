@@ -11,3 +11,168 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Globe Animation Fallbacks */
+@keyframes globe-spin {
+  0% {
+    transform: rotateY(0deg) rotateX(23.5deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(23.5deg);
+  }
+}
+
+@keyframes globe-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(255,255,255,0.6);
+  }
+}
+
+@keyframes connection-pulse {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scaleY(0.8);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scaleY(1.2);
+  }
+}
+
+/* Particle orbit fallbacks for different indices */
+@keyframes particle-orbit-0 {
+  0%, 100% {
+    transform: translate(150px, 0px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-150px, 0px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-1 {
+  0%, 100% {
+    transform: translate(129.9px, 75px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-129.9px, -75px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-2 {
+  0%, 100% {
+    transform: translate(75px, 129.9px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-75px, -129.9px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-3 {
+  0%, 100% {
+    transform: translate(0px, 150px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(0px, -150px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-4 {
+  0%, 100% {
+    transform: translate(-75px, 129.9px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(75px, -129.9px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-5 {
+  0%, 100% {
+    transform: translate(-129.9px, 75px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(129.9px, -75px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-6 {
+  0%, 100% {
+    transform: translate(-150px, 0px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(150px, 0px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-7 {
+  0%, 100% {
+    transform: translate(-129.9px, -75px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(129.9px, 75px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-8 {
+  0%, 100% {
+    transform: translate(-75px, -129.9px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(75px, 129.9px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-9 {
+  0%, 100% {
+    transform: translate(0px, -150px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(0px, 150px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-10 {
+  0%, 100% {
+    transform: translate(75px, -129.9px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-75px, 129.9px) scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes particle-orbit-11 {
+  0%, 100% {
+    transform: translate(129.9px, -75px) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate(-129.9px, 75px) scale(1.8);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "yes": "Yes",
+    "no": "No",
+    "language": "Language"
+  },
+  "navigation": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "needs": "Needs",
+    "volunteers": "Volunteers",
+    "organizations": "Organizations",
+    "messages": "Messages",
+    "training": "Learn & Train",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "title": "Good Neighbors",
+    "subtitle": "Uniting Disaster Recovery Organizations and Volunteers",
+    "description": "Connect verified needs with skilled volunteers in real-time. Join our community to make a difference when it matters most.",
+    "hero": {
+      "title": "Uniting for Recovery",
+      "subtitle": "Connecting organizations and volunteers for faster, more effective disaster response.",
+      "cta": {
+        "primary": "Volunteer Now",
+        "secondary": "Learn More"
+      }
+    },
+    "features": {
+      "title": "How We Help",
+      "volunteer": {
+        "title": "For Volunteers",
+        "description": "Find meaningful opportunities to help, track your impact, and gain valuable experience."
+      },
+      "organization": {
+        "title": "For Organizations",
+        "description": "Recruit qualified volunteers, manage needs, and coordinate your response efforts efficiently."
+      },
+      "realtime": {
+        "title": "Real-Time Matching",
+        "description": "Our intelligent platform connects the right volunteers with the right needs, right now."
+      }
+    },
+    "stats": {
+      "volunteers": "Volunteers",
+      "organizations": "Organizations",
+      "people_helped": "People Helped",
+      "support": "Support"
+    },
+    "cta": {
+      "title": "Ready to Make a Difference?",
+      "description": "Join our community of heroes and help coordinate disaster recovery efforts worldwide!",
+      "volunteer": "Become a Volunteer",
+      "organization": "Register Organization"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot Password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "user_type_select": "I am a..."
+    },
+    "register": {
+      "title": "Join Good Neighbors",
+      "volunteer": "Register as Volunteer",
+      "organization": "Register as Organization",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "location": "Location",
+      "skills": "Skills",
+      "organizationName": "Organization Name",
+      "description": "Description",
+      "contactEmail": "Contact Email",
+      "contactPhone": "Contact Phone",
+      "submit": "Create Account",
+      "alreadyAccount": "Already have an account?",
+      "signIn": "Sign In"
+    }
+  },
+  "dashboard": {
+    "volunteer": {
+      "title": "Volunteer Dashboard",
+      "welcome": "Welcome back",
+      "stats": {
+        "needsCompleted": "Needs Completed",
+        "hoursVolunteered": "Hours Volunteered",
+        "badgesEarned": "Badges Earned"
+      },
+      "nearbyNeeds": "Nearby Needs",
+      "myAssignments": "My Assignments",
+      "training": "Training Modules",
+      "noNearbyNeeds": "No nearby needs found",
+      "viewAllNeeds": "View All Needs"
+    },
+    "organization": {
+      "title": "Organization Dashboard",
+      "welcome": "Welcome back",
+      "stats": {
+        "activeNeeds": "Active Needs",
+        "volunteersAssigned": "Volunteers Assigned",
+        "needsFulfilled": "Needs Fulfilled"
+      },
+      "recentNeeds": "Recent Needs",
+      "volunteerResponses": "Volunteer Responses",
+      "createNeed": "Post New Need",
+      "noActiveNeeds": "No active needs",
+      "viewAllNeeds": "View All Needs"
+    }
+  },
+  "needs": {
+    "title": "Needs Dashboard",
+    "create": "Post New Need",
+    "edit": "Edit Need",
+    "filters": {
+      "title": "Filters",
+      "urgency": "Urgency",
+      "skills": "Skills",
+      "location": "Location",
+      "status": "Status"
+    },
+    "urgency": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "status": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "form": {
+      "title": "Need Title",
+      "description": "Description",
+      "location": "Location",
+      "requiredSkills": "Required Skills",
+      "urgency": "Urgency Level",
+      "volunteersNeeded": "Volunteers Needed",
+      "startDate": "Start Date",
+      "endDate": "End Date (Optional)",
+      "submit": "Post Need"
+    },
+    "details": {
+      "organization": "Organization",
+      "location": "Location",
+      "skills": "Required Skills",
+      "urgency": "Urgency",
+      "volunteers": "Volunteers",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "description": "Description",
+      "volunteerNow": "Volunteer Now",
+      "contact": "Contact Organization",
+      "assigned": "Assigned",
+      "needed": "Needed"
+    }
+  },
+  "volunteers": {
+    "title": "Volunteers",
+    "profile": "Volunteer Profile",
+    "skills": "Skills",
+    "location": "Location",
+    "training": "Training Status",
+    "badges": "Badges",
+    "assignments": "Current Assignments",
+    "history": "Volunteer History"
+  },
+  "training": {
+    "title": "Learning & Training Center",
+    "description": "Empower yourself with the knowledge and skills to make a real impact. Complete modules to unlock new opportunities.",
+    "modules": "Training Modules",
+    "required": "Required Training",
+    "completed": "Completed",
+    "duration": "Hours",
+    "progress": "Progress",
+    "completeModule": "Complete Module",
+    "continueModule": "Continue Module",
+    "startModule": "Start Module",
+    "status": {
+      "completed": "Completed",
+      "in_progress": "In Progress",
+      "not_started": "Not Started"
+    },
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "modules": {
+      "safety": {
+        "title": "Safety & Security Protocols",
+        "description": "Learn essential safety protocols for disaster response environments",
+        "duration": "45 minutes",
+        "lessons": "6 lessons"
+      },
+      "communication": {
+        "title": "Effective Communication",
+        "description": "Master communication skills for coordinating with teams and affected communities",
+        "duration": "60 minutes",
+        "lessons": "8 lessons"
+      },
+      "firstAid": {
+        "title": "First Aid & Emergency Care",
+        "description": "Essential first aid skills for emergency situations",
+        "duration": "90 minutes",
+        "lessons": "12 lessons"
+      },
+      "logistics": {
+        "title": "Logistics & Supply Chain",
+        "description": "Understanding supply chain management in disaster response",
+        "duration": "75 minutes",
+        "lessons": "10 lessons"
+      },
+      "mentalHealth": {
+        "title": "Mental Health Support",
+        "description": "Providing psychological support to disaster survivors",
+        "duration": "120 minutes",
+        "lessons": "15 lessons"
+      },
+      "technology": {
+        "title": "Technology & Communication Tools",
+        "description": "Using technology effectively in disaster response operations",
+        "duration": "50 minutes",
+        "lessons": "7 lessons"
+      }
+    }
+  },
+  "messages": {
+    "title": "Messages",
+    "newMessage": "New Message",
+    "noMessages": "No messages yet",
+    "sendMessage": "Send Message",
+    "typeMessage": "Type your message...",
+    "unread": "Unread"
+  },
+  "profile": {
+    "title": "Profile",
+    "personalInfo": "Personal Information",
+    "contactInfo": "Contact Information",
+    "skills": "Skills",
+    "training": "Training",
+    "badges": "Badges",
+    "preferences": "Preferences",
+    "edit": "Edit Profile",
+    "save": "Save Changes"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark All as Read",
+    "noNotifications": "No notifications",
+    "types": {
+      "needAssigned": "Need Assigned",
+      "needUpdated": "Need Updated",
+      "messageReceived": "Message Received",
+      "trainingCompleted": "Training Completed"
+    }
+  }
+} 

@@ -1,0 +1,267 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "submit": "Soumettre",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "clear": "Effacer",
+    "yes": "Oui",
+    "no": "Non",
+    "language": "Langue"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "dashboard": "Tableau de Bord",
+    "needs": "Besoins",
+    "volunteers": "Bénévoles",
+    "organizations": "Organisations",
+    "messages": "Messages",
+    "training": "Apprendre et S'entraîner",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "register": "S'inscrire"
+  },
+  "home": {
+    "title": "Bons Voisins",
+    "subtitle": "Unir les Organisations de Récupération de Catastrophes et les Bénévoles",
+    "description": "Connectez les besoins vérifiés avec des bénévoles qualifiés en temps réel. Rejoignez notre communauté pour faire une différence quand cela compte le plus.",
+    "hero": {
+      "title": "Aider Quand Cela Compte le Plus",
+      "subtitle": "Coordination en temps réel entre les organisations de récupération de catastrophes et les bénévoles",
+      "volunteerButton": "Je Veux Être Bénévole",
+      "organizationButton": "Je Suis une Organisation"
+    },
+    "features": {
+      "title": "Comment Ça Marche",
+      "realTime": {
+        "title": "Correspondance en Temps Réel",
+        "description": "Connecte automatiquement les bénévoles aux besoins basés sur les compétences, l'emplacement et la disponibilité"
+      },
+      "verified": {
+        "title": "Besoins Vérifiés",
+        "description": "Tous les besoins sont publiés par des organisations vérifiées et incluent des exigences détaillées"
+      },
+      "accessible": {
+        "title": "Conception Accessible",
+        "description": "Interface adaptée aux mobiles avec support multilingue pour une participation inclusive"
+      },
+      "training": {
+        "title": "Formation Rapide",
+        "description": "Complétez les modules de formation de sécurité essentiels pour commencer immédiatement"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Bon Retour",
+      "email": "Email",
+      "password": "Mot de Passe",
+      "submit": "Se Connecter",
+      "forgotPassword": "Mot de Passe Oublié?",
+      "noAccount": "Vous n'avez pas de compte?",
+      "signUp": "S'inscrire"
+    },
+    "register": {
+      "title": "Rejoindre Bons Voisins",
+      "volunteer": "S'inscrire comme Bénévole",
+      "organization": "S'inscrire comme Organisation",
+      "name": "Nom Complet",
+      "email": "Email",
+      "phone": "Numéro de Téléphone",
+      "password": "Mot de Passe",
+      "confirmPassword": "Confirmer le Mot de Passe",
+      "location": "Emplacement",
+      "skills": "Compétences",
+      "organizationName": "Nom de l'Organisation",
+      "description": "Description",
+      "contactEmail": "Email de Contact",
+      "contactPhone": "Téléphone de Contact",
+      "submit": "Créer un Compte",
+      "alreadyAccount": "Vous avez déjà un compte?",
+      "signIn": "Se Connecter"
+    }
+  },
+  "dashboard": {
+    "volunteer": {
+      "title": "Tableau de Bord Bénévole",
+      "welcome": "Bon retour",
+      "stats": {
+        "needsCompleted": "Besoins Complétés",
+        "hoursVolunteered": "Heures de Bénévolat",
+        "badgesEarned": "Badges Gagnés"
+      },
+      "nearbyNeeds": "Besoins Proches",
+      "myAssignments": "Mes Assignations",
+      "training": "Modules de Formation",
+      "noNearbyNeeds": "Aucun besoin proche trouvé",
+      "viewAllNeeds": "Voir Tous les Besoins"
+    },
+    "organization": {
+      "title": "Tableau de Bord Organisation",
+      "welcome": "Bon retour",
+      "stats": {
+        "activeNeeds": "Besoins Actifs",
+        "volunteersAssigned": "Bénévoles Assignés",
+        "needsFulfilled": "Besoins Satisfaits"
+      },
+      "recentNeeds": "Besoins Récents",
+      "volunteerResponses": "Réponses des Bénévoles",
+      "createNeed": "Publier un Nouveau Besoin",
+      "noActiveNeeds": "Aucun besoin actif",
+      "viewAllNeeds": "Voir Tous les Besoins"
+    }
+  },
+  "needs": {
+    "title": "Tableau de Bord des Besoins",
+    "create": "Publier un Nouveau Besoin",
+    "edit": "Modifier le Besoin",
+    "filters": {
+      "title": "Filtres",
+      "urgency": "Urgence",
+      "skills": "Compétences",
+      "location": "Emplacement",
+      "status": "Statut"
+    },
+    "urgency": {
+      "low": "Faible",
+      "medium": "Moyenne",
+      "high": "Élevée",
+      "critical": "Critique"
+    },
+    "status": {
+      "open": "Ouvert",
+      "inProgress": "En Cours",
+      "completed": "Terminé",
+      "cancelled": "Annulé"
+    },
+    "form": {
+      "title": "Titre du Besoin",
+      "description": "Description",
+      "location": "Emplacement",
+      "requiredSkills": "Compétences Requises",
+      "urgency": "Niveau d'Urgence",
+      "volunteersNeeded": "Bénévoles Nécessaires",
+      "startDate": "Date de Début",
+      "endDate": "Date de Fin (Optionnel)",
+      "submit": "Publier le Besoin"
+    },
+    "details": {
+      "organization": "Organisation",
+      "location": "Emplacement",
+      "skills": "Compétences Requises",
+      "urgency": "Urgence",
+      "volunteers": "Bénévoles",
+      "startDate": "Date de Début",
+      "endDate": "Date de Fin",
+      "description": "Description",
+      "volunteerNow": "Être Bénévole Maintenant",
+      "contact": "Contacter l'Organisation",
+      "assigned": "Assignés",
+      "needed": "Nécessaires"
+    }
+  },
+  "volunteers": {
+    "title": "Bénévoles",
+    "profile": "Profil du Bénévole",
+    "skills": "Compétences",
+    "location": "Emplacement",
+    "training": "Statut de Formation",
+    "badges": "Badges",
+    "assignments": "Assignations Actuelles",
+    "history": "Historique de Bénévolat"
+  },
+  "training": {
+    "title": "Centre d'Apprentissage",
+    "subtitle": "Modules de formation essentiels pour les bénévoles de réponse aux catastrophes",
+    "required": "Formation Requise",
+    "optional": "Formation Optionnelle",
+    "completed": "Terminé",
+    "inProgress": "En Cours",
+    "notStarted": "Non Commencé",
+    "duration": "Durée",
+    "startModule": "Commencer le Module",
+    "continueModule": "Continuer le Module",
+    "completeModule": "Terminer le Module",
+    "progress": "Progrès",
+    "certificate": "Certificat",
+    "modules": {
+      "safety": {
+        "title": "Protocoles de Sécurité",
+        "description": "Directives de sécurité essentielles pour la réponse aux catastrophes",
+        "duration": "45 min",
+        "lessons": 8
+      },
+      "communication": {
+        "title": "Compétences en Communication",
+        "description": "Communication efficace pendant la réponse d'urgence",
+        "duration": "30 min",
+        "lessons": 6
+      },
+      "firstAid": {
+        "title": "Premiers Soins de Base",
+        "description": "Procédures de premiers soins de base pour les situations d'urgence",
+        "duration": "60 min",
+        "lessons": 12
+      },
+      "logistics": {
+        "title": "Logistique et Coordination",
+        "description": "Comprendre les chaînes d'approvisionnement et la gestion des ressources",
+        "duration": "40 min",
+        "lessons": 7
+      },
+      "mentalHealth": {
+        "title": "Soutien en Santé Mentale",
+        "description": "Fournir un soutien émotionnel aux survivants de catastrophes",
+        "duration": "35 min",
+        "lessons": 5
+      },
+      "technology": {
+        "title": "Outils Numériques",
+        "description": "Utiliser la technologie pour une réponse efficace aux catastrophes",
+        "duration": "25 min",
+        "lessons": 4
+      }
+    }
+  },
+  "messages": {
+    "title": "Messages",
+    "newMessage": "Nouveau Message",
+    "noMessages": "Aucun message pour le moment",
+    "sendMessage": "Envoyer le Message",
+    "typeMessage": "Tapez votre message...",
+    "unread": "Non lu"
+  },
+  "profile": {
+    "title": "Profil",
+    "personalInfo": "Informations Personnelles",
+    "contactInfo": "Informations de Contact",
+    "skills": "Compétences",
+    "training": "Formation",
+    "badges": "Badges",
+    "preferences": "Préférences",
+    "edit": "Modifier le Profil",
+    "save": "Enregistrer les Modifications"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Marquer Tout comme Lu",
+    "noNotifications": "Aucune notification",
+    "types": {
+      "needAssigned": "Besoin Assigné",
+      "needUpdated": "Besoin Mis à Jour",
+      "messageReceived": "Message Reçu",
+      "trainingCompleted": "Formation Terminée"
+    }
+  }
+} 
